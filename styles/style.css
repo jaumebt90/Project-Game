@@ -5,12 +5,12 @@ body {
 }
 
 .body-graveyard {
-  background-image: url('/images/graveyard.jpeg');
+  background-image: url(../images/graveyard.jpeg);
   background-size: cover;
 }
 
 .body-background {
-  background-image: url('/images/background.png');
+  background-image: url(../images/background.png);
   background-size: cover;
 }
 
