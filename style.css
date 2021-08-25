@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  text-align: center;
+  
+}
+
+.body-graveyard {
+  background-image: url('/images/graveyard.jpeg');
+  background-size: cover;
+}
+
+.body-background {
+  background-image: url('/images/background.png');
+  background-size: cover;
+}
+
+
+#game-intro {
+  font-size: 18px;
+  font-family: 'Verdana';
+  text-align: center;
+  padding-top: 100px;
+}
+
+.logo-img {
+  width: 350px;
+}
+
+#titol {
+  font-family: 'verdana';
+  font-style: oblique;
+  text-decoration-line: underline;
+}
+
+
+#sinopsis {
+  line-height: 30px;
+  font-family: 'Verdana';
+}
+
+
+
+body button {
+  font-size: 30px;
+  background-color: #686868;
+  color: white;
+}

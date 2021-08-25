@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Zombie Apocalypse</title>
+  </head>
+  <body id='main' class='body-graveyard'>
+    <div id="game-intro">
+      <img src='./images/zombie-apo-logo.png' alt="" class="logo-img"/>
+      <br />
+      <h2 id='titol'>Warning!</h2>
+      <p id='sinopsis'>Help little X survive!<br/>
+        Use the left and right arrows to avoid the zombies.<br/>
+        Luck, you'll need it!</p>
+      <button id="start-button">StartGame</button>
+      
+    </div>
+
+    <div id="game-board">
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src='js/zombies.js'></script>
+    <script src='js/kid.js'></script>
+    <script type="text/javascript" src="js/theGame.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
