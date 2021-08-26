@@ -8,6 +8,7 @@ const theGame = {
   score: 0,
   zombie: [],
 
+
   init(canvas) {
     this.setContext(canvas);
     this.setCanvasDimensions(canvas);
@@ -17,6 +18,8 @@ const theGame = {
     this.createNewKid();
     this.setListeners();
     this.gameStart();
+    let music = document.getElementById('musica');
+    music.play();
   },
 
   setContext(canvas) {
@@ -29,6 +32,8 @@ const theGame = {
     canvas.setAttribute("width", this.canvasSize.w);
     canvas.setAttribute("height", this.canvasSize.h);
   },
+
+  
 
   createNewKid() {
     this.newKid = new Kid(this.ctx, 110, 110, this.canvasSize);
@@ -134,7 +139,7 @@ const theGame = {
 
     ctx.clearRect(0, 0, 1200, 900);
     setTimeout(() => {
-      ctx.drawImage(died, 0, 0, 1200, 900);
+      ctx.drawImage(died, 0, 50, 1100, 900);
   }, 700);
     
 
