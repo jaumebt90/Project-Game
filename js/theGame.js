@@ -135,11 +135,11 @@ const theGame = {
     let ctx = test.getContext("2d");
 
     let died = new Image();
-    died.src = '../images/died.png';
+    died.src = '../images/brains.png';
 
     ctx.clearRect(0, 0, 1200, 900);
     setTimeout(() => {
-      ctx.drawImage(died, 0, 50, 1100, 900);
+      ctx.drawImage(died, 0, 100, 1200, 600);
   }, 700);
     
 
