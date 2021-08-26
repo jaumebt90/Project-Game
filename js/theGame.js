@@ -122,29 +122,27 @@ const theGame = {
   },
 
   checkYouDied() {
-    //alert("Has perdut");
-    //let test = document.getElementById("restart-button");
+   
     clearInterval(this.intervalId);
-    alert("Hola");
+    
 
     let test = document.getElementById("canvas");
     let ctx = test.getContext("2d");
 
-    let loser = new Image();
-    loser.src = `../images/died.png`;
+    let died = new Image();
+    died.src = '../images/died.png';
 
     ctx.clearRect(0, 0, 1200, 900);
-    //Pintamos logo
-    ctx.drawImage(loser, 20, 15, 1000, 1000);
-    alert("Hola2");
+    setTimeout(() => {
+      ctx.drawImage(died, 0, 0, 1200, 900);
+  }, 700);
+    
 
     setTimeout(() => {
       location.reload();
   }, 3000);
-    //alert("Estamos aquí");
+    
   },
 
-  //restart(){
-  //location.reload();
-  //}
+ 
 };
