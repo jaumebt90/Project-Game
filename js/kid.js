@@ -11,7 +11,7 @@ class Kid {
         this.moveLeft = false
         this.moveRight = false
         this.image = new Image();
-        this.image.src = `../images/kid.png`;
+        this.image.src = (`/kid.png`);
     }
 
     drawKid() {
