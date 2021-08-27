@@ -7,7 +7,7 @@ class Zombie {
         this.randomImage = Math.trunc(Math.random() * (6 - 1) + 1)
         this.speed = speed
         this.imageInstance = new Image();
-        this.imageInstance.src = url(`https://jaumebt90.github.io/Project-Zombies/images/zom${this.randomImage}.png`);
+        this.imageInstance.src = `https://jaumebt90.github.io/Project-Zombies/images/zom${this.randomImage}.png`;
 
       
     }

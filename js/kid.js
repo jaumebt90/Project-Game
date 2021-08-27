@@ -11,7 +11,7 @@ class Kid {
         this.moveLeft = false
         this.moveRight = false
         this.image = new Image();
-        this.image.src = url('https://jaumebt90.github.io/Project-Zombies/images/kid.png');
+        this.image.src = 'https://jaumebt90.github.io/Project-Zombies/images/kid.png';
     }
 
     drawKid() {
