@@ -134,7 +134,7 @@ const theGame = {
     let ctx = test.getContext("2d");
 
     let died = new Image();
-    died.src = '../images/brains.png';
+    died.src = 'https://jaumebt90.github.io/Project-Zombies/images/brains.png';
 
     ctx.clearRect(0, 0, 1200, 900);
     setTimeout(() => {
