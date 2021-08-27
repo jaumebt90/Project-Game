@@ -3,7 +3,6 @@ const theGame = {
   canvasSize: { w: undefined, h: undefined },
   intervalId: undefined,
   framesCounter: 0,
-  obstacles: [],
   speed: 4,
   score: 0,
   zombie: [],
@@ -99,7 +98,7 @@ const theGame = {
   },
 
   showScores() {
-    this.ctx.font = "25px Verdana";
+    this.ctx.font = "30px Verdana";
     this.ctx.fillStyle = "black";
     this.ctx.fillText("Score: " + this.score, 0, 25);
   },
