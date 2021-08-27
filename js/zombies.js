@@ -9,7 +9,7 @@ class Zombie {
         this.imageInstance = new Image();
         this.imageInstance.src = url(`https://jaumebt90.github.io/Project-Zombies/images/zom${this.randomImage}.png`);
 
-        zom${this.randomImage}
+      
     }
   
     draw() {
